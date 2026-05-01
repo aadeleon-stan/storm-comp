@@ -1,14 +1,14 @@
+"use client";
+
+import { useSearchParams } from "next/navigation";
 import { getBalls, getBallsByIds } from "@/lib/balls";
 import CompareLayout from "./CompareLayout";
 import Link from "next/link";
+import { Suspense } from "react";
 
-interface Props {
-  searchParams: Promise<{ balls?: string }>;
-}
-
-export default async function ComparePage({ searchParams }: Props) {
-  const params = await searchParams;
-  const ids = params.balls ? params.balls.split(",").filter(Boolean) : [];
+function ComparePageInner() {
+  const searchParams = useSearchParams();
+  const ids = searchParams.get("balls")?.split(",").filter(Boolean) ?? [];
   const balls = getBallsByIds(ids);
   const allBalls = getBalls();
 
@@ -34,5 +34,13 @@ export default async function ComparePage({ searchParams }: Props) {
 
       <CompareLayout balls={balls} allBalls={allBalls} />
     </div>
+  );
+}
+
+export default function ComparePage() {
+  return (
+    <Suspense>
+      <ComparePageInner />
+    </Suspense>
   );
 }
