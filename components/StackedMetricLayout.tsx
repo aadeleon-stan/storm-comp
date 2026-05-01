@@ -76,7 +76,7 @@ function SortableCard({
           <div className="min-w-0">
             <div className="text-sm font-bold text-white leading-snug">{ball.shortName ?? ball.name}</div>
             <a
-              href={ball.url}
+              href={ball.url.startsWith("https://") ? ball.url : "#"}
               target="_blank"
               rel="noopener noreferrer"
               onPointerDown={(e) => e.stopPropagation()}

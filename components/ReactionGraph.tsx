@@ -58,7 +58,7 @@ export default function ReactionGraph({
           {ball.shortName ?? ball.name}
         </h2>
         <a
-          href={ball.url}
+          href={ball.url.startsWith("https://") ? ball.url : "#"}
           target="_blank"
           rel="noopener noreferrer"
           className="text-xs text-gray-400 hover:text-red-400 block truncate"
