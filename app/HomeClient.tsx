@@ -85,7 +85,7 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
       <div className="sticky top-8 w-56 shrink-0 space-y-4">
         <div>
           <h1 className="text-2xl font-bold">Compare balls</h1>
-          <p className="text-gray-400 text-sm mt-1">Select up to 3.</p>
+          <p className="text-gray-400 text-sm mt-1">Select up to three</p>
         </div>
 
         <input
