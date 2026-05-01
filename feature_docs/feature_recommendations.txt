@@ -1,0 +1,12 @@
+## Goal
+Help the user find similar or complimentary balls by recommending other options.
+
+## Approach
+Add recommended balls based on the user's choice(s) so far. We will start by limiting this to the comparison screen's mini-selector.
+
+If the user has selected only one ball, recommend similar balls. If the user has selected two balls, check if they are similar or somewhat balanced: if similar, recommend a third similar ball; if balanced, recommend a third ball for coverage.
+
+### Similarity metrics
+1. Core/cover
+2. ZVL categorization
+3. Reaction specs

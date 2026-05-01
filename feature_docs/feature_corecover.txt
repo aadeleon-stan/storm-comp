@@ -1,0 +1,21 @@
+## Problem
+Reaction specs are somewhat abstracted from the physical features of the ball, specifically the core and the coverstock. The user is missing core and coverstock info in our app.
+
+## Approach
+We will add info about each ball's core and coverstock to the ball cards in both card and stacked views.
+
+## Data model changes
+We need fields for each ball's:
+1. Core type (symmetric vs. asymmetric)
+2. Core name
+3. Core shape (graphic)
+4. Coverstock type (pearl, solid, hybrid, etc.)
+5. Coverstock name
+
+## Suggested UI/UX
+1. In the cards view, we will add core type and coverstock type to the features section below the fragrance. Display as a single string, e.g., "Symmetric Hybrid" or "Asymmetric Pearl."
+2. In the stacked view, we will add core type and coverstock type to the features section below the fragrance. Display as a single string, e.g., "Symmetric Hybrid" or "Asymmetric Pearl."
+3. In the cards view, we will add core name, coverstock name, and core shape in a new section below the reaction specs.
+
+## Known issues
+[resolved] coreImageUrl: null for all — the Storm site uses a ${weightBlock} template variable in their JS rather than a static URL, so no actual image URL is available. Need to find a way to get the weight block images to display.

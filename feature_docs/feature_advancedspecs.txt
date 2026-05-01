@@ -1,0 +1,9 @@
+## Problem
+Reaction specs are somewhat abstracted from the technical specs of the ball, such as RG, differential, factory finish, durometer/hardness, and (at least for asymmetric balls) PSA. The user is missing this detailed info in our app.
+
+A secondary issue to address is that with the addition of all this info, the UI is getting pretty croweded. So we should add more sophisticated display settings for the user and cache their preferences.
+
+## Approach
+We need to update our data model and ingestion scripts. First let's figure out all the technical specs we'll need, as well as any possible helpful graphics on the Storm website (research needed here). Then we can add the appropriate fields to the data model and update all our ball records.
+
+From a UI/UX perspective, we can start by limiting this info to the Cards view, possibly in the form of an expandable/collapsible section at the bottom of each card. Let's put the durometer/hardness and the factory finish next to the coverstock info, and add RG, differential, and PSA on the left side of the core image.

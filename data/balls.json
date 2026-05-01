@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "storm-equinox-bowling-ball",
+    "name": "Storm Equinox Bowling Ball",
+    "shortName": "Equinox",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-equinox-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVEQ/BBMVEQ.png",
+    "color": "Goldenrod/Deep Violet/Chromium",
+    "fragrance": "Blueberry Crumble",
+    "coreType": "Asymmetric",
+    "coreName": "Solarion AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Solarion_AI/S_Solarion_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "A1S Pearl",
+    "zvlCategory": "Strong/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "storm-ion-max-pearl-bowling-ball",
+    "name": "Storm Ion Max Pearl Bowling Ball",
+    "shortName": "Ion Max Pearl",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-ion-max-pearl-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVIM/BBMVIM@1.png",
+    "color": "Cobalt/Aqua/Ivory",
+    "fragrance": "Pineapple Cherry Delight",
+    "coreType": "Asymmetric",
+    "coreName": "Element Max AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Element_Max_AI/S_Element_Max_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "NRG Pearl",
+    "zvlCategory": "Strong/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "storm-ion-max-bowling-ball",
+    "name": "Storm Ion Max Bowling Ball – High‑Performance Heavy‑Oil Asymmetric",
+    "shortName": "Ion Max",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-ion-max-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVIO/BBMVIO.png",
+    "color": "Neon Pink/Indigo/White",
+    "fragrance": "Strawberry Milkshake",
+    "coreType": "Asymmetric",
+    "coreName": "Element Max AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Element_Max_AI/S_Element_Max_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "NRG Solid",
+    "zvlCategory": "Strong/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 5,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 2,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      }
+    ]
+  },
+  {
+    "id": "storm-equinox-solid-bowling-ball",
+    "name": "Storm EquinoX Solid Bowling Ball – High-Hook Performance",
+    "shortName": "EquinoX Solid",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-equinox-solid-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVXD/BBMVXD@1.png",
+    "color": "Dark Green/Black/White",
+    "fragrance": "Cherry Apple Slush",
+    "coreType": "Asymmetric",
+    "coreName": "Solarion AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Solarion_AI/S_Solarion_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "A2S Solid",
+    "zvlCategory": "Strong/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "storm-ion-pro-solid-bowling-ball",
+    "name": "Storm Ion Pro Solid Bowling Ball – Benchmark Asymmetric Solid Reactive",
+    "shortName": "Ion Pro Solid",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-ion-pro-solid-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVIS/BBMVIS.png",
+    "color": "Capri Blue",
+    "fragrance": "Blueberry Donut",
+    "coreType": "Asymmetric",
+    "coreName": "Element Tour AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Element_Tour_AI/S_Element_Tour_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "TX-16 Solid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 2,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 4,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "storm-ion-pro-bowling-ball",
+    "name": "Storm Ion Pro Bowling Ball – Benchmark Asymmetric Hybrid",
+    "shortName": "Ion Pro",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-ion-pro-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVIP/BBMVIP.png",
+    "color": "Navy/Carbon/Steel",
+    "fragrance": "Kiwi Tart",
+    "coreType": "Asymmetric",
+    "coreName": "Element Tour AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Element_Tour_AI/S_Element_Tour_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "TX-16 Hybrid",
+    "zvlCategory": "Weak/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 2,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "storm-next-factor-bowling-ball",
+    "name": "Storm Next Factor Bowling Ball",
+    "shortName": "Next Factor",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-next-factor-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVXF/BBMVXF.png",
+    "color": "Midnight",
+    "fragrance": "Dark Berry",
+    "coreType": "Asymmetric",
+    "coreName": "RAD-TQ",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_RAD-TQ/S_RAD-TQ_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "R3S Pearl",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "storm-identity-bcp-bowling-ball",
+    "name": "Storm Identity B/C/P Bowling Ball – High‑Performance Asymmetric Pearl",
+    "shortName": "Identity B/C/P",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-identity-bcp-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVDB/BBMVDB.png",
+    "color": "Black/Cherry/Purple",
+    "fragrance": "Cherry",
+    "coreType": "Asymmetric",
+    "coreName": "ID AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_ID_AI/S_ID_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "REX Pearl",
+    "zvlCategory": "Strong/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "storm-identity-bowling-ball",
+    "name": "Storm Identity Bowling Ball – High‑Performance Asymmetric Pearl",
+    "shortName": "Identity",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-identity-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVID/BBMVID.png",
+    "color": "Cherry/Teal/Black",
+    "fragrance": "Cherry",
+    "coreType": "Asymmetric",
+    "coreName": "ID AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_ID_AI/S_ID_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "REX Pearl",
+    "zvlCategory": "Strong/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "storm-concept-bowling-ball",
+    "name": "Storm Concept Bowling Ball",
+    "shortName": "Concept",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-concept-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVCN/BBMVCN@1.png",
+    "color": "Teal/Imperial Blue",
+    "fragrance": "Blueberry Fritter",
+    "coreType": "Symmetric",
+    "coreName": "Radius",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Radius/S_Radius_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "ARC Pearl",
+    "zvlCategory": "Urethane/Urethane-Like",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 2,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 2,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 2,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "storm-bionic-bowling-ball",
+    "name": "Storm Bionic Bowling Ball",
+    "shortName": "Bionic",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-bionic-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVBI/BBMVBI.png",
+    "color": "Electric Blue/Magenta/Deep Purple",
+    "fragrance": "Cherry Cobbler",
+    "coreType": "Symmetric",
+    "coreName": "Torsion AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Torsion_AI/S_Torsion_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "NRG Hybrid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 5,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "storm-iq-tour-ai-bowling-ball",
+    "name": "Storm !Q Tour A.I. Bowling Ball – Hybrid Benchmark with A.I. Core",
+    "shortName": "!Q Tour A.I.",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-iq-tour-ai-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVQA/BBMVQA@1.png",
+    "color": "Emerald/Black",
+    "fragrance": "Apple Cider Donut",
+    "coreType": "Symmetric",
+    "coreName": "C3C AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_C3C_AI/S_C3C_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "R2S Hybrid",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 6,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      }
+    ]
+  },
+  {
+    "id": "storm-iq-tour-78u-bowling-ball",
+    "name": "Storm !Q Tour 78/U Bowling Ball – New Urethane Control Weapon",
+    "shortName": "!Q Tour 78/U",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-iq-tour-78u-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVLL/BBMVLL.png",
+    "color": "Crimson",
+    "fragrance": "None",
+    "coreType": "Symmetric",
+    "coreName": "C3C",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_C3C/S_C3C_00000.png",
+    "coverstockType": "Urethane",
+    "coverstockName": "Controll 78 Urethane",
+    "zvlCategory": "Urethane/Urethane-Like",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 5,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 1,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      }
+    ]
+  },
+  {
+    "id": "storm-phaze-ii-pearl-bowling-ball",
+    "name": "Storm Phaze II Pearl Bowling Ball",
+    "shortName": "Phaze II Pearl",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-phaze-ii-pearl-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVZP/BBMVZP_00000.png",
+    "color": "Red/Blue/Purple",
+    "fragrance": "Frosted Cinnamon Roll",
+    "coreType": "Symmetric",
+    "coreName": "Velocity",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Velocity/S_Velocity_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "TX-25 Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "storm-phaze-ii-bowling-ball",
+    "name": "Storm Phaze II Bowling Ball – High‑Performance Symmetric Solid Reactive",
+    "shortName": "Phaze II",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-phaze-ii-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMTZA/BBMTZA.png",
+    "color": "Red/Blue/Purple",
+    "fragrance": "Red Velvet Cake",
+    "coreType": "Symmetric",
+    "coreName": "Velocity",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Velocity/S_Velocity_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "TX-16 Solid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 4,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 4
+      }
+    ]
+  },
+  {
+    "id": "storm-iq-tour-edition-bowling-ball",
+    "name": "Storm IQ Tour Edition Bowling Ball – Benchmark Solid Reactive",
+    "shortName": "IQ Tour Edition",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-iq-tour-edition-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMTQT/BBMTQT.png",
+    "color": "Midnight Blue",
+    "fragrance": "Apple Crisp",
+    "coreType": "Symmetric",
+    "coreName": "C3C",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_C3C/S_C3C_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "R2S Solid",
+    "zvlCategory": "Weak/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 5,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 2,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "bbmvrc-rocket-ai",
+    "name": "Storm Rocket A.I. Bowling Ball – Medium to Dry Lane Performance",
+    "shortName": "Rocket A.I.",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/products/equipment/bowling-balls/bbmvrc-rocket-ai\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVRC/BBMVRC.png",
+    "color": "Chrome/Wine",
+    "fragrance": "Frosted Berry",
+    "coreType": "Symmetric",
+    "coreName": "Booster AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Booster_AI/S_Booster_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "A1S Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "storm-pitch-black-bowling-ball",
+    "name": "Storm Pitch Black Bowling Ball – Urethane Control Weapon",
+    "shortName": "Pitch Black",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-pitch-black-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMTUB/BBMTUB.png",
+    "color": "Black",
+    "fragrance": "None",
+    "coreType": "Symmetric",
+    "coreName": "Capacitor",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Capacitor/S_Capacitor_00000.png",
+    "coverstockType": "Urethane",
+    "coverstockName": "Controll Urethane",
+    "zvlCategory": "Urethane/Urethane-Like",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 7,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 1,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      }
+    ]
+  },
+  {
+    "id": "storm-hy-road-40-bowling-ball",
+    "name": "Storm Hy‑Road 40 Bowling Ball – Benchmark Pearl Reactive",
+    "shortName": "Hy‑Road 40",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-hy-road-40-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVHY/Hy-Road_40.png",
+    "color": "Teal",
+    "fragrance": "Pineapple Apple Crisp",
+    "coreType": "Symmetric",
+    "coreName": "Inverted Fe2",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Inverted_Fe2/S_Inverted_Fe2_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "A1S Pearl",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 10
+      }
+    ]
+  },
+  {
+    "id": "storm-hy-road-bowling-ball",
+    "name": "Storm Hy‑Road Bowling Ball – Benchmark Hybrid Reactive",
+    "shortName": "Hy‑Road",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-hy-road-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMTTY/BBMTTY.png",
+    "color": "Black/Ultramarine Blue",
+    "fragrance": "Combination Berry",
+    "coreType": "Symmetric",
+    "coreName": "Inverted Fe2",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Inverted_Fe2/S_Inverted_Fe2_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "R2S Hybrid",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      }
+    ]
+  },
+  {
+    "id": "storm-phaze-ai-bowling-ball",
+    "name": "PHAZE A.I.",
+    "shortName": "Phaze A.I.",
+    "brand": null,
+    "url": "https://www.stormbowling.com/storm-phaze-ai-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVZI/BBMVZI.png",
+    "color": "Ivory/Anchor/Onyx",
+    "fragrance": "Cherry Vanilla Cupcake",
+    "coreType": "Symmetric",
+    "coreName": "Velocity AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Velocity_AI/S_Velocity_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "TX-16 Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "storm-road-warrior-bowling-ball",
+    "name": "ROAD WARRIOR",
+    "shortName": "Road Warrior",
+    "brand": null,
+    "url": "https://www.stormbowling.com/storm-road-warrior-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVWR/BBMVWR.png",
+    "color": "Sapphire/Steel",
+    "fragrance": "Peppermint Patty",
+    "coreType": "Symmetric",
+    "coreName": "Inverted Fe2 AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Inverted_Fe2_AI/S_Inverted_Fe2_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "R2S Deep Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 2,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 7,
+        "segmentEnd": 10
+      }
+    ]
+  },
+  {
+    "id": "bbmvmn-monsoon",
+    "name": "Storm Monsoon Bowling Ball",
+    "shortName": "Monsoon",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/products/equipment/bowling-balls/bbmvmn-monsoon\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVMN/BBMVMN@1.png",
+    "color": "Plum/Emerald",
+    "fragrance": "Grapple",
+    "coreType": "Symmetric",
+    "coreName": "Atmos AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Atmos_AI/S_Atmos_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "Reactor Solid",
+    "zvlCategory": "Weak/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "storm-typhoon-bowling-ball",
+    "name": "Storm Typhoon Bowling Ball – Mid‑Performance Pearl Reactive",
+    "shortName": "Typhoon",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-typhoon-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVTY/BBMVTY.png",
+    "color": "Royal Purple/Steel",
+    "fragrance": "Grape Punch",
+    "coreType": "Symmetric",
+    "coreName": "Atmos AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Atmos_AI/S_Atmos_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "Reactor Pearl",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 9,
+        "segmentEnd": 11
+      }
+    ]
+  },
+  {
+    "id": "storm-tropical-surge-bowling-ball-black-blue-pink",
+    "name": "Storm Tropical Surge Bowling Ball – Entry‑Level Reactive for Dry/Medium Oil",
+    "shortName": "Tropical Surge",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-tropical-surge-bowling-ball-black-blue-pink\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BT1VKK/Tropical_Surge_Black-Blue-Pink.PNG",
+    "color": "Black/Blue/Pink",
+    "fragrance": "Vanilla Cupcake",
+    "coreType": "Symmetric",
+    "coreName": "Surge Core",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Surge Core/S_Surge Core_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "Reactor Solid",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 3,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 6,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 3,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      }
+    ]
+  },
+  {
+    "id": "storm-tropical-surge-bowling-ball-red-blue-purple",
+    "name": "Storm Tropical Surge Bowling Ball – Entry‑Level Reactive for Dry/Medium Oil",
+    "shortName": "Tropical Surge",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-tropical-surge-bowling-ball-red-blue-purple\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BT1VWP/Tropical_Surge_Red_White_Purple.png",
+    "color": "Red/White/Purple",
+    "fragrance": "Red Hot Cinnamon",
+    "coreType": "Symmetric",
+    "coreName": "Surge Core",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Surge Core/S_Surge Core_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "Reactor Pearl",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 3,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 6,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      }
+    ]
+  },
+  {
+    "id": "storm-norm-duke-clear-bowling-ball",
+    "name": "Storm Norm Duke Clear Bowling Ball",
+    "shortName": "Norm Duke Clear",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-norm-duke-clear-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBPVND/BBPVND@1.png",
+    "color": "Clear/Blue",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Cube",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Cube/S_Cube_00000.png",
+    "coverstockType": null,
+    "coverstockName": "Poly Clear",
+    "zvlCategory": null,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 3,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 11,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 1,
+        "segmentEnd": 1
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 11,
+        "segmentEnd": 11
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-transformer-bowling-ball",
+    "name": "Roto Grip Transformer Bowling Ball",
+    "shortName": "Transformer",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-transformer-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRLL/IMG_2463.png",
+    "color": "Indigo/Violet/Slate",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Morph Wing",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Morph_Wing/R_Morph_Wing_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "VR1 Solid",
+    "zvlCategory": "Strong/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-rst-hyperdrive-bowling-ball",
+    "name": "Roto Grip RST Hyperdrive Bowling Ball – High Hook Performance",
+    "shortName": "RST Hyperdrive",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-rst-hyperdrive-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRYV/BBMRYV.png",
+    "color": "Mango/Magenta/Royal",
+    "fragrance": "",
+    "coreType": "Asymmetric",
+    "coreName": "RST AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_RST_AI/R_RST_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "Microtrax Solid",
+    "zvlCategory": "Strong/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 3,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-rst-hyperdrive-pearl-bowling-ball",
+    "name": "Roto Grip RST Hyperdrive Pearl – Long and Strong Bowling Ball",
+    "shortName": "RST Hyperdrive Pearl",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-rst-hyperdrive-pearl-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRYR/BBMRYR@1.png",
+    "color": "Space Blue/Deep Purple",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "RST AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_RST_AI/R_RST_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "U-R1 Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-gremlin-tour-x-bowling-ball",
+    "name": "Roto Grip Gremlin Tour X Bowling Ball",
+    "shortName": "Gremlin Tour X",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-gremlin-tour-x-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRGV/BBMRGV.png",
+    "color": "Smoke/Velvet/Ink",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Rondure TourX",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Rondure_TourX/R_Rondure_TourX_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "VR1 Hybrid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 6,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 2,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 6
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-gremlin-bowling-ball",
+    "name": "Roto Grip Gremlin Bowling Ball – Skid-Flip Action for Medium/Heavy Oil",
+    "shortName": "Gremlin",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-gremlin-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRGX/Gremlin.png",
+    "color": "Plum/Raisen/Tanzanite",
+    "fragrance": "",
+    "coreType": "Asymmetric",
+    "coreName": "Rondure MaxD",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Rondure_MaxD/R_Rondure_MaxD_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "V-R1 Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 11,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 5,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-rockstar-amped-bowling-ball",
+    "name": "Rockstar Amped Pearl Reactive Bowling Ball by Roto Grip",
+    "shortName": "Rockstar Amped Pearl Reactive",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-rockstar-amped-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRRM/BBMRRM.png",
+    "color": "Chili/Maroon/Raspberry",
+    "fragrance": "",
+    "coreType": "Symmetric",
+    "coreName": "Rocker AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Rocker_AI/R_Rocker_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "Nanostar Pearl",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-rockstar-bowling-ball",
+    "name": "Roto Grip Rockstar Bowling Ball – Solid Reactive Power",
+    "shortName": "Rockstar",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-rockstar-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRKS/BBMRKS.png",
+    "color": "Crimson/Jet/Maroon",
+    "fragrance": "",
+    "coreType": "Symmetric",
+    "coreName": "Rocker AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Rocker_AI/R_Rocker_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "Nanostar Solid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 3,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-ultimate-wrecker-bowling-ball",
+    "name": "Roto Grip Ultimate Wrecker Bowling Ball – Versatile Hybrid Reactive",
+    "shortName": "Ultimate Wrecker",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-ultimate-wrecker-bowling-ball\r",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRUW/BBMRUW.png",
+    "color": "Cherry/Old Gold/Wine",
+    "fragrance": "",
+    "coreType": "Symmetric",
+    "coreName": "Wrecker AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Wrecker_AI/R_Wrecker_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "Pure Response Hybrid",
+    "zvlCategory": "Weak/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      }
+    ]
+  },
+  {
+    "id": "900-global-origin-ex-bowling-ball",
+    "name": "900 Global Origin EX Bowling Ball",
+    "shortName": "Origin EX",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-origin-ex-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGOE/BBMGOE.png",
+    "color": "Orange/Red/Plum",
+    "fragrance": "",
+    "coreType": "Asymmetric",
+    "coreName": "Ellipse AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Ellipse_AI/G_Ellipse_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "89 Solid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 3,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "900-global-viking-bowling-ball",
+    "name": "900 Global Viking Bowling Ball – Hybrid Asym High‑Flare Weapon",
+    "shortName": "Viking",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-viking-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGVK/BBMGVK.png",
+    "color": "Copper/Steel/Deep Purple",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Strobe AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Strobe_AI/G_Strobe_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "90 Hybrid",
+    "zvlCategory": "Strong/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 9,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "900-global-vengeance-bowling-ball",
+    "name": "900 Global Vengeance Bowling Ball",
+    "shortName": "Vengeance",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-vengeance-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGRR/BBMGRR.png",
+    "color": "Coal/Ash/Smoke",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Blast AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Blast_AI/G_Blast_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "91 Solid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      }
+    ]
+  },
+  {
+    "id": "900-global-cove-bowling-ball",
+    "name": "900 Global Cove Bowling Ball – Smooth Hybrid for Medium‑Heavy Oil",
+    "shortName": "Cove",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-cove-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGVC/BBMGVC.png",
+    "color": "Blue/Sand/Teal",
+    "fragrance": "",
+    "coreType": "Symmetric",
+    "coreName": "Magna AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Magna_AI/G_Magna_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "85 Hybrid",
+    "zvlCategory": "Medium/Smooth",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "900-global-ember-bowling-ball",
+    "name": "900 Global Ember Bowling Ball – Sharp Pearl Motion for Medium Oil",
+    "shortName": "Ember",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-ember-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGMR/BBMGMR.png",
+    "color": "Red/Orange/Charcoal",
+    "fragrance": "",
+    "coreType": "Symmetric",
+    "coreName": "Magna AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Magna_AI/G_Magna_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "82 Hybrid",
+    "zvlCategory": "Medium/Sharp",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "bbmvlg-lightning-blackout",
+    "name": "LIGHTNING BLACKOUT",
+    "shortName": "Lightning Blackout",
+    "brand": null,
+    "url": "https://www.stormbowling.com/products/featured/bowling-balls-archive/bbmvlg-lightning-blackout",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVLG/BBMVLG.png",
+    "color": "Obsidian/Yellow",
+    "fragrance": "Pineapple Cherry Delight",
+    "coreType": "Symmetric",
+    "coreName": "Warped AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Warped_AI/S_Warped_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "REX Pearl",
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 5,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 8,
+        "segmentEnd": 11
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+The Storm Bowling website is notoriously difficult to navigate. But let's focus on one specific user goal: comparing bowling ball reaction specs.
+
+On the product page for most balls, the website natively displays that particular ball's reaction specs in a helpful graphic, where each metric is split into a bar with 11 cells. The ball's spec on that metric is highlighted across one or a continuous range of those cells. Metrics include "Ball shape" (ranging from smooth on the left to angular on the right), "Hook length" (ranging from early on the left to mid-lane in the middle cell to late on the right), and "Lane condition" (ranging from fresh to transition to burn from left to right). This list is NOT exhaustive; there are other important metrics which must be read from the Storm product pages, but they are consistent across all relevant products.
+
+However, attempting to compare two or more balls requires the user to swap between the graphic for each ball, which is profoundly unhelpful. A much better UX would allow the user to compare balls side-by-side with the reaction specs displayed simultaneously, in a way that could be directly compared.
+
+Let's build that UX. Since the ball specs are static once published, we likely don't need to regularly update our database (we can rely on manual updates when new balls are released by Storm). Working title for this project is CompareDeezBalls.
+
+MVP scope:
+- Project DB includes reaction specs for all current Storm-brand balls
+- System can ingest a URL to a Storm product page, verify that it is a valid bowling ball with reaction specs, and read the corresponding graphic to add a new ball (with its accurate specs) to the project DB
+- User can search the project DB for two bowling balls to compare
+- User can view a reaction specs graphic for both balls simultaneously

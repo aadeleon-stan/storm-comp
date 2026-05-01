@@ -1,0 +1,9 @@
+## Goal
+We want to offer more categorization options beyond just core/cover combination. We can use this first for filtering, and later for recommendations.
+
+## Approach
+The categorization methodology we will use is that from ZVL Bowling. To begin, we will simply update our DB to record the ZVL categorization for each ball (with a nullable field). This info can be ingested from the "Storm Categorization Guide" image found at: https://www.zvlbowling.com/categorization-guides#h.yo3bwzz8m41k.
+
+To verify the categorization, we will add an option for "Show ZVL" on all pages. If checked, display the ZVL categorization (e.g., "Medium/Smooth") as follows:
+- In cards: below core/cover info
+- In selector screen: after core/cover info, e.g., "(Sym Hybrid, Medium/Smooth)"

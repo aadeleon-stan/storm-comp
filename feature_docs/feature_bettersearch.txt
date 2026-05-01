@@ -1,0 +1,21 @@
+## Problem
+Search is very barebones.
+
+## Approach
+This set of improvements will focus primarily on core/cover info, as this is a fairly universal classification even across non-Storm brands and which most bowlers will look to first for good coverage in their arsenal. So we will:
+
+1. Add search filters by core (sym vs. asym) and cover (solid, pearl, hybrid, etc.).
+2. Add core/cover info directly to the list items in the selector menu.
+
+A secondary improvement will be adding a brand filter.
+
+3. Add search filters by brand.
+
+Items 1, 2, and 3 will apply to both the original search page as well as the selectors within the comparison page.
+
+A final upgrade will be to the original search page ONLY:
+
+4. When any ball is selected, we will show a "preview" of that ball by displaying the ball card on the right side of the screen. Closing that ball card will deselect the ball from the comparison list.
+
+## Suggested UI/UX
+For item 2, we want to make the core/cover info clear but also secondary to the ball name. We can do this by abbreviating the core type ("Sym" or "Asym"), using a more subdued text style, and putting the info in parentheses, e.g., "Bionic (Sym Hybrid)" with primary/secondary text styling.

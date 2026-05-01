@@ -1,0 +1,11 @@
+## Problem
+Unnecessary friction when user wants to swap out a single ball from comparison, since they have to return to the Select screen and reselect the other balls too.
+
+## Approach
+We will allow users in the Compare screen to remove ball cards from either cards or stacked view. If fewer than 3 balls are selected, they will see an empty card and be able to add a ball from an in-component version of the selector.
+
+## Suggested UI/UX
+1. Remove: small "x" button in top right corner of each ball card
+2. Ball cards should be the same size regardless of how many balls are selected (i.e., use the 3-ball size setting instead of filling the space horizontally when there are fewer balls selected).
+3. If there are 2 balls selected, an "empty card" is displayed in the third ball slot, with the ability to add a ball.
+4. If there is 1 ball selected, an "empty card" is displayed in the second ball slot, with the ability to add a ball. The third ball slot is hidden and disabled.
