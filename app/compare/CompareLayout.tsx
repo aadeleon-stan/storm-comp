@@ -60,7 +60,7 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
   const router = useRouter();
   const [balls, setBalls] = useState(initialBalls);
   const [colorIndices, setColorIndices] = useState<Record<string, number>>({});
-  const [view, setView] = useState<"card" | "stacked">("card");
+  const [view, setView] = useState<"stacked" | "card">("stacked");
   const [showBrand, setShowBrand] = useState(false);
   const [showColors, setShowColors] = useState(true);
   const [showZVL, setShowZVL] = useState(false);
@@ -151,20 +151,20 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
       <div className="mb-6 space-y-2">
         <div className="flex gap-1">
           <button
-            onClick={() => setView("card")}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              view === "card" ? "bg-gray-700 text-white" : "text-gray-400 hover:text-white"
-            }`}
-          >
-            Cards
-          </button>
-          <button
             onClick={() => setView("stacked")}
             className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
               view === "stacked" ? "bg-gray-700 text-white" : "text-gray-400 hover:text-white"
             }`}
           >
-            Stacked
+            Comparison
+          </button>
+          <button
+            onClick={() => setView("card")}
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              view === "card" ? "bg-gray-700 text-white" : "text-gray-400 hover:text-white"
+            }`}
+          >
+            Details
           </button>
         </div>
         <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
