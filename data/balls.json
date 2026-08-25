@@ -45,7 +45,8 @@
         "segmentStart": 6,
         "segmentEnd": 8
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-ion-max-pearl-bowling-ball",
@@ -285,7 +286,8 @@
         "segmentStart": 2,
         "segmentEnd": 7
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-next-factor-bowling-ball",
@@ -573,7 +575,8 @@
         "segmentStart": 4,
         "segmentEnd": 6
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-iq-tour-78u-bowling-ball",
@@ -813,7 +816,8 @@
         "segmentStart": 6,
         "segmentEnd": 9
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-pitch-black-bowling-ball",
@@ -909,7 +913,8 @@
         "segmentStart": 6,
         "segmentEnd": 10
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-hy-road-bowling-ball",
@@ -1005,7 +1010,8 @@
         "segmentStart": 5,
         "segmentEnd": 7
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-road-warrior-bowling-ball",
@@ -1053,7 +1059,8 @@
         "segmentStart": 7,
         "segmentEnd": 10
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "bbmvmn-monsoon",
@@ -1101,7 +1108,8 @@
         "segmentStart": 3,
         "segmentEnd": 5
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-typhoon-bowling-ball",
@@ -1245,7 +1253,8 @@
         "segmentStart": 10,
         "segmentEnd": 11
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "storm-norm-duke-clear-bowling-ball",
@@ -1293,7 +1302,8 @@
         "segmentStart": 11,
         "segmentEnd": 11
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "roto-grip-transformer-bowling-ball",
@@ -1341,7 +1351,8 @@
         "segmentStart": 2,
         "segmentEnd": 5
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "roto-grip-rst-hyperdrive-bowling-ball",
@@ -1389,7 +1400,8 @@
         "segmentStart": 1,
         "segmentEnd": 3
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "roto-grip-rst-hyperdrive-pearl-bowling-ball",
@@ -1437,7 +1449,8 @@
         "segmentStart": 5,
         "segmentEnd": 7
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "roto-grip-gremlin-tour-x-bowling-ball",
@@ -1485,7 +1498,8 @@
         "segmentStart": 2,
         "segmentEnd": 6
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "roto-grip-gremlin-bowling-ball",
@@ -1533,7 +1547,8 @@
         "segmentStart": 5,
         "segmentEnd": 9
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "roto-grip-rockstar-amped-bowling-ball",
@@ -1581,7 +1596,8 @@
         "segmentStart": 5,
         "segmentEnd": 8
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "roto-grip-rockstar-bowling-ball",
@@ -1629,7 +1645,8 @@
         "segmentStart": 2,
         "segmentEnd": 5
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "roto-grip-ultimate-wrecker-bowling-ball",
@@ -1677,7 +1694,8 @@
         "segmentStart": 6,
         "segmentEnd": 9
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "900-global-origin-ex-bowling-ball",
@@ -1725,7 +1743,8 @@
         "segmentStart": 3,
         "segmentEnd": 5
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "900-global-viking-bowling-ball",
@@ -1773,7 +1792,8 @@
         "segmentStart": 6,
         "segmentEnd": 8
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "900-global-vengeance-bowling-ball",
@@ -1821,7 +1841,8 @@
         "segmentStart": 1,
         "segmentEnd": 3
       }
-    ]
+    ],
+    "archived": false
   },
   {
     "id": "900-global-cove-bowling-ball",
@@ -1869,7 +1890,8 @@
         "segmentStart": 2,
         "segmentEnd": 5
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "900-global-ember-bowling-ball",
@@ -1917,7 +1939,8 @@
         "segmentStart": 5,
         "segmentEnd": 8
       }
-    ]
+    ],
+    "archived": true
   },
   {
     "id": "bbmvlg-lightning-blackout",
@@ -1964,6 +1987,552 @@
         "segmentStart": 8,
         "segmentEnd": 11
       }
+    ],
+    "archived": true
+  },
+  {
+    "id": "storm-alpha-crux-bowling-ball",
+    "name": "Storm Alpha Crux 2026 Bowling Ball",
+    "shortName": "Alpha Crux 2026",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-alpha-crux-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVXA/BBMVXA.png",
+    "color": "Black/Turquoise/Violet",
+    "fragrance": "Apple Fritter",
+    "coreType": "Asymmetric",
+    "coreName": "Catalyst AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Catalyst_AI/S_Catalyst_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "GI26 Solid",
+    "releaseDate": "2026-05-29",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 3
+      }
     ]
+  },
+  {
+    "id": "storm-equinox-hybrid-bowling-ball",
+    "name": "Storm Equinox Hybrid Bowling Ball",
+    "shortName": "Equinox Hybrid",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-equinox-hybrid-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVXY/BBMVXY.png?v=c698f9ad",
+    "color": "Nebula/Flare/Void",
+    "fragrance": "Orange Creamsicle",
+    "coreType": "Asymmetric",
+    "coreName": "Solarion AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Solarion_AI/S_Solarion_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "A2S Hybrid",
+    "releaseDate": "2026-09-04",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 4,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      }
+    ],
+    "zvlCategory": "Strong/Sharp"
+  },
+  {
+    "id": "storm-iq-tour-sapphire-bowling-ball",
+    "name": "Storm !Q Tour Sapphire Bowling Ball",
+    "shortName": "!Q Tour Sapphire",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-iq-tour-sapphire-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVQH/IQ_Sapphire_Small.png?v=b7051d5c",
+    "color": "Sapphire",
+    "fragrance": "Blueberry",
+    "coreType": "Symmetric",
+    "coreName": "C3C",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_C3C/S_C3C_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "R2S Pearl",
+    "releaseDate": "2026-08-07",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 5,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 2,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 10
+      }
+    ]
+  },
+  {
+    "id": "storm-rocket-ai-bowling-ball",
+    "name": "Storm Rocket A.I. Bowling Ball – Medium to Dry Lane Performance",
+    "shortName": "Rocket A.I.",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-rocket-ai-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVRC/BBMVRC.png",
+    "color": "Chrome/Wine",
+    "fragrance": "Frosted Berry",
+    "coreType": "Symmetric",
+    "coreName": "Booster AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Booster_AI/S_Booster_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "A1S Pearl",
+    "releaseDate": "2026-05-01",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      }
+    ],
+    "zvlCategory": "Medium/Sharp"
+  },
+  {
+    "id": "storm-monsoon-bowling-ball",
+    "name": "Storm Monsoon Bowling Ball",
+    "shortName": "Monsoon",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-monsoon-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVMN/BBMVMN@1.png",
+    "color": "Plum/Emerald",
+    "fragrance": "Grapple",
+    "coreType": "Symmetric",
+    "coreName": "Atmos AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Atmos_AI/S_Atmos_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "Reactor Solid",
+    "releaseDate": "2026-05-01",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ],
+    "zvlCategory": "Weak/Smooth"
+  },
+  {
+    "id": "storm-tropical-surge-bowling-ball-silver-purple",
+    "name": "Storm Tropical Surge Bowling Ball – Entry‑Level Reactive for Dry/Medium Oil",
+    "shortName": "Tropical Surge",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-tropical-surge-bowling-ball-silver-purple",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BT1VVU/Tropical_Surge_Silver-Purple.png",
+    "color": null,
+    "fragrance": null,
+    "coreType": null,
+    "coreName": null,
+    "coreImageUrl": null,
+    "coverstockType": null,
+    "coverstockName": null,
+    "releaseDate": null,
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 3,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 6,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 10,
+        "segmentEnd": 11
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-transform-pearl-bowling-ball",
+    "name": "Roto Grip TRANSFORM™ Pearl Bowling Ball",
+    "shortName": "TRANSFORM™ Pearl",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-transform-pearl-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRLT/Transform_Pearl.png?v=01c6a051",
+    "color": "Red/Cherry/Shadow",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Morph Wing",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Morph_Wing/R_Morph_Wing_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "Microtrax Pearl",
+    "releaseDate": "2026-07-10",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 5,
+        "segmentEnd": 8
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-wicked-gremlin-bowling-ball",
+    "name": "Roto Grip Wicked Gremlin Bowling Ball",
+    "shortName": "Wicked Gremlin",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-wicked-gremlin-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRWG/Wicked_Gremlin_rv3_shadow-small.png?v=d89e8f9d",
+    "color": "Citrine/Red/Purple",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Rondure MaxD",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Rondure_MaxD/R_Rondure_MaxD_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "GR1 Solid",
+    "releaseDate": "2026-08-07",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 11,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 4
+      }
+    ],
+    "zvlCategory": "Medium/Smooth"
+  },
+  {
+    "id": "roto-grip-hyped-up-bowling-ball",
+    "name": "Roto Grip hyped UP!™ Bowling Ball",
+    "shortName": "hyped UP!™",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-hyped-up-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRYY/Hyped_Up_.png?v=e274cc5e",
+    "color": "Black/Black Pearl",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Hyped Up",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Hyped_Up/R_Hyped_Up_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "VR1 Hybrid",
+    "releaseDate": "2026-07-10",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 8,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 3,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ]
+  },
+  {
+    "id": "900-global-viking-conquest-bowling-ball",
+    "name": "900 Global Viking Conquest Bowling Ball",
+    "shortName": "Viking Conquest",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-viking-conquest-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGKQ/BBMGKQ@1.png",
+    "color": "Purple/White/Gray",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Strobe AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Strobe_AI/G_Strobe_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "94 Solid",
+    "releaseDate": "2026-06-26",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 2,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 3,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 9,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      }
+    ],
+    "zvlCategory": "Strong/Smooth"
+  },
+  {
+    "id": "900-global-vengeance-returns-bowling-ball",
+    "name": "Vengeance Returns Bowling Ball",
+    "shortName": "Vengeance Returns",
+    "brand": null,
+    "url": "https://www.stormbowling.com/900-global-vengeance-returns-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGRN/BBMGRN@1_(1).png",
+    "color": "Navy/Ash/Smoke",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Blast AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Blast_AI/G_Blast_AI_00000.png",
+    "coverstockType": "Hybrid",
+    "coverstockName": "91 Hybrid",
+    "releaseDate": "2026-06-26",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 5,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 5
+      }
+    ],
+    "zvlCategory": "Medium/Sharp"
   }
 ]

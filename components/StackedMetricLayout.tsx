@@ -17,6 +17,7 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import type { Ball } from "@/lib/balls";
+import { isBallNew } from "@/lib/balls";
 import { getBallColors } from "@/lib/ballColor";
 import { METRIC_LABELS } from "@/components/ReactionGraph";
 import EmptyBallSlot from "@/components/EmptyBallSlot";
@@ -74,7 +75,15 @@ function SortableCard({
             />
           )}
           <div className="min-w-0">
-            <div className="text-sm font-bold text-white leading-snug">{ball.shortName ?? ball.name}</div>
+            <div className="text-sm font-bold text-white leading-snug flex items-center gap-1.5">
+              <span>{ball.shortName ?? ball.name}</span>
+              {ball.archived && (
+                <span className="text-[9px] font-normal bg-gray-700 text-gray-400 px-1 py-0.5 rounded leading-none">Disc.</span>
+              )}
+              {!ball.archived && isBallNew(ball) && (
+                <span className="text-[9px] font-normal bg-red-600 text-white px-1 py-0.5 rounded leading-none">New</span>
+              )}
+            </div>
             <a
               href={ball.url.startsWith("https://") ? ball.url : "#"}
               target="_blank"

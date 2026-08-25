@@ -1,0 +1,9 @@
+Let’s improve the data and data collection flow of this app.
+
+Right now, updating the set of balls served requires a manual intervention by a human curating the content. Instead, we should regularly scrape the Storm website to look for new balls.
+
+To avoid removing balls from our DB simply because they are no longer being manufactured (a common phenomenon), we should maintain archived/discontinued balls. We can flag these balls with an “archived” tag.
+
+We may also want to tag “new” balls which were recently released. We may need to add the release date as a field to our ball specs for this.
+
+Since the ZVL categorization is done by an independent third party, any balls added will need this field specified. We should find an improvement to this — either developing an automatic pipeline to parse images from ZVL’s website, or alerting a human to add ZVL for balls where it is not set.

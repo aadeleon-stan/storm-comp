@@ -21,7 +21,20 @@ export interface Ball {
   coverstockType: string | null;
   coverstockName: string | null;
   zvlCategory: string | null;
+  archived?: boolean;
+  releaseDate?: string | null;
+  isNew?: boolean;
   metrics: Metric[];
+}
+
+export function isBallNew(ball: Ball, withinDays = 60): boolean {
+  if (ball.isNew === true) return true;
+  if (ball.isNew === false) return false;
+  if (!ball.releaseDate) return false;
+  const release = new Date(ball.releaseDate);
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - withinDays);
+  return release >= cutoff;
 }
 
 export function getBalls(): Ball[] {

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Ball } from "@/lib/balls";
+import { isBallNew } from "@/lib/balls";
 import { getBallColor, getBallColors } from "@/lib/ballColor";
 
 const TOTAL_CELLS = 11;
@@ -53,9 +54,17 @@ export default function ReactionGraph({
             className="w-36 h-36 object-contain mx-auto mb-3"
           />
         )}
-        <h2 className="text-lg font-bold mb-1 text-white">
-          {showBrand && ball.brand ? `${ball.brand} ` : ""}
-          {ball.shortName ?? ball.name}
+        <h2 className="text-lg font-bold mb-1 text-white flex items-center gap-2">
+          <span>
+            {showBrand && ball.brand ? `${ball.brand} ` : ""}
+            {ball.shortName ?? ball.name}
+          </span>
+          {ball.archived && (
+            <span className="text-[10px] font-normal bg-gray-700 text-gray-400 px-1.5 py-0.5 rounded leading-none">Discontinued</span>
+          )}
+          {!ball.archived && isBallNew(ball) && (
+            <span className="text-[10px] font-normal bg-red-600 text-white px-1.5 py-0.5 rounded leading-none">New</span>
+          )}
         </h2>
         <a
           href={ball.url.startsWith("https://") ? ball.url : "#"}

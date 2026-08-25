@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { Ball } from "@/lib/balls";
+import { isBallNew } from "@/lib/balls";
 import ReactionGraph from "@/components/ReactionGraph";
 
 const MAX = 3;
@@ -22,6 +23,7 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
   const [coverFilter, setCoverFilter] = useState("all");
   const [zvlFilter, setZvlFilter] = useState("all");
   const [brandFilter, setBrandFilter] = useState("all");
+  const [hideArchived, setHideArchived] = useState(false);
   const [previewId, setPreviewId] = useState<string | null>(null);
 
   const coverOptions = useMemo(
@@ -53,9 +55,17 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
       if (coverFilter !== "all" && b.coverstockType !== coverFilter) return false;
       if (zvlFilter !== "all" && b.zvlCategory !== zvlFilter) return false;
       if (brandFilter !== "all" && b.brand !== brandFilter) return false;
+      if (hideArchived && b.archived) return false;
       return true;
+    }).sort((a, b) => {
+      const aNew = isBallNew(a) ? 0 : 1;
+      const bNew = isBallNew(b) ? 0 : 1;
+      if (aNew !== bNew) return aNew - bNew;
+      const aArch = a.archived ? 1 : 0;
+      const bArch = b.archived ? 1 : 0;
+      return aArch - bArch;
     });
-  }, [balls, query, coreFilter, coverFilter, zvlFilter, brandFilter]);
+  }, [balls, query, coreFilter, coverFilter, zvlFilter, brandFilter, hideArchived]);
 
   function toggle(id: string) {
     const isSelected = selected.has(id);
@@ -167,6 +177,15 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
           />
           Show ZVL
         </label>
+        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+          <input
+            type="checkbox"
+            checked={hideArchived}
+            onChange={(e) => setHideArchived(e.target.checked)}
+            className="accent-red-500"
+          />
+          Hide discontinued
+        </label>
 
         <div className="space-y-2">
           <button
@@ -255,7 +274,15 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
                       <div className="w-12 h-12 rounded-full bg-gray-700 flex-shrink-0" />
                     )}
                     <div className="min-w-0">
-                      <div className="font-medium">{displayName(ball)}</div>
+                      <div className="font-medium flex items-center gap-1.5">
+                        {displayName(ball)}
+                        {ball.archived && (
+                          <span className="text-[10px] bg-gray-700 text-gray-400 px-1.5 py-0.5 rounded leading-none">Discontinued</span>
+                        )}
+                        {!ball.archived && isBallNew(ball) && (
+                          <span className="text-[10px] bg-red-600 text-white px-1.5 py-0.5 rounded leading-none">New</span>
+                        )}
+                      </div>
                       {subtitle && <div className="text-xs text-gray-500">{subtitle}</div>}
                     </div>
                     {isSelected && (
