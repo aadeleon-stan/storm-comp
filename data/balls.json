@@ -2534,5 +2534,103 @@
       }
     ],
     "zvlCategory": "Medium/Sharp"
+  },
+  {
+    "id": "roto-grip-perfect-gem-bowling-ball",
+    "name": "Perfect Gem Bowling Ball",
+    "shortName": "Perfect Gem",
+    "brand": null,
+    "url": "https://www.stormbowling.com/roto-grip-perfect-gem-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRGW/BBMRGW@1.png?v=f0c77446",
+    "color": "Pink/Rose/Onyx",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Gem AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Gem_AI/R_Gem_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "ER1 Solid",
+    "releaseDate": "2026-10-02",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 11,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 1,
+        "segmentEnd": 3
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 8,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 7,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 1,
+        "segmentEnd": 4
+      }
+    ]
+  },
+  {
+    "id": "900-global-portal-bowling-ball",
+    "name": "900 Global Portal Bowling Ball",
+    "shortName": "Portal",
+    "brand": "900 Global",
+    "url": "https://www.stormbowling.com/900-global-portal-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMGPL/BBMGPL@1.png?v=8e7631c8",
+    "color": "Red",
+    "fragrance": null,
+    "coreType": "Asymmetric",
+    "coreName": "Conduit AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/G_Conduit_AI/G_Conduit_AI_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "RB92 Solid",
+    "releaseDate": "2026-10-02",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 10,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 8,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 8,
+        "segmentEnd": 11
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 2,
+        "segmentEnd": 6
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 7,
+        "segmentEnd": 10
+      }
+    ]
   }
 ]
