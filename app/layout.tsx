@@ -1,10 +1,29 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
+const DESCRIPTION = "Compare Storm bowling ball reaction specs side-by-side";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "CompareDeezBalls",
-  description: "Compare Storm bowling ball reaction specs side-by-side",
+  description: DESCRIPTION,
+  openGraph: {
+    title: "CompareDeezBalls",
+    description: DESCRIPTION,
+    siteName: "CompareDeezBalls",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CompareDeezBalls",
+    description: DESCRIPTION,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#030712",
 };
 
 export default function RootLayout({

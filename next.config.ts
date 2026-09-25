@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
+import { BASE_PATH } from "./lib/site";
 
 const nextConfig: NextConfig = {
-  basePath: "/projects/ballcomp/app",
+  basePath: BASE_PATH,
   skipTrailingSlashRedirect: true,
 };
 
