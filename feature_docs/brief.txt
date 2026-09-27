@@ -4,7 +4,7 @@ On the product page for most balls, the website natively displays that particula
 
 However, attempting to compare two or more balls requires the user to swap between the graphic for each ball, which is profoundly unhelpful. A much better UX would allow the user to compare balls side-by-side with the reaction specs displayed simultaneously, in a way that could be directly compared.
 
-Let's build that UX. Since the ball specs are static once published, we likely don't need to regularly update our database (we can rely on manual updates when new balls are released by Storm). Working title for this project is CompareDeezBalls.
+Let's build that UX. Since the ball specs are static once published, we likely don't need to regularly update our database (we can rely on manual updates when new balls are released by Storm). Working title for this project is CompareDeezBalls. (Later renamed to BallDiff.)
 
 MVP scope:
 - Project DB includes reaction specs for all current Storm-brand balls

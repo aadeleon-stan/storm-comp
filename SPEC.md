@@ -1,4 +1,4 @@
-# CompareDeezBalls — Product Spec
+# BallDiff — Product Spec
 
 ## Problem
 
