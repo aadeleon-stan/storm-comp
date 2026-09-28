@@ -1793,7 +1793,7 @@
         "segmentEnd": 8
       }
     ],
-    "archived": false
+    "archived": true
   },
   {
     "id": "900-global-vengeance-bowling-ball",
@@ -2632,6 +2632,7 @@
         "segmentStart": 7,
         "segmentEnd": 10
       }
-    ]
+    ],
+    "zvlCategory": "Medium/Sharp"
   }
 ]
