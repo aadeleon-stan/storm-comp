@@ -1,5 +1,5 @@
 /** Sub-path the app is served from behind the proxy. Consumed by next.config.ts and app/manifest.ts. */
-export const BASE_PATH = "/projects/ballcomp/app";
+export const BASE_PATH = "/projects/balldiff/app";
 
 /**
  * Absolute origin, used to build absolute OG/Twitter image URLs.

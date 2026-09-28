@@ -27,7 +27,7 @@ npm run dev
 ```
 
 Then open the app at the path in `BASE_PATH` (`lib/site.ts`) — by default
-<http://localhost:3000/projects/ballcomp/app>. The app is served from a sub-path behind
+<http://localhost:3000/projects/balldiff/app>. The app is served from a sub-path behind
 a proxy in production, and `basePath` applies in dev too.
 
 ## Data pipeline
