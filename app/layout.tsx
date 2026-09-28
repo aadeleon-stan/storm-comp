@@ -38,8 +38,8 @@ export default function RootLayout({
       <body className="bg-gray-950 text-gray-100 min-h-screen flex flex-col">
         <header className="border-b border-gray-800 px-6 py-4">
           <Link href="/" className="text-xl font-bold hover:opacity-80">
-            <span className="text-gray-100">Ball</span>
-            <span className="text-red-500">Diff</span>
+            <span className="text-gray-100">ball</span>
+            <span className="text-red-500">diff</span>
           </Link>
           <p className="text-xs text-gray-400 mt-0.5">Bowling ball reaction specs, side by side</p>
         </header>

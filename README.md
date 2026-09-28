@@ -1,11 +1,11 @@
-# BallDiff
+# balldiff
 
 Compare Storm bowling ball reaction specs side by side.
 
 Storm publishes a reaction-spec graphic for every ball — hook length, ball shape, lane
 condition, flare potential — but their site only ever shows you **one ball at a time**.
 Picking between two balls means opening two tabs and eyeballing back and forth.
-BallDiff puts them on the same axes.
+balldiff puts them on the same axes.
 
 - **Cards view** — one column per ball, metrics aligned across columns.
 - **Stacked view** — one section per metric, every ball overlaid on a shared scale.

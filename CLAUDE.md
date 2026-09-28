@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**BallDiff** — a web app for comparing Storm bowling ball reaction specs side-by-side. The Storm website only shows one ball's reaction graphic at a time; this tool lets users compare multiple balls simultaneously.
+**balldiff** (always stylized lowercase) — a web app for comparing Storm bowling ball reaction specs side-by-side. The Storm website only shows one ball's reaction graphic at a time; this tool lets users compare multiple balls simultaneously.
 
 ### Reaction Spec Graphic Format
 Each ball's specs are displayed as bars with 11 cells, with the ball's value highlighted across one or more contiguous cells. Known metrics include:

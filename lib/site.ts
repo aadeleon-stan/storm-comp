@@ -8,7 +8,7 @@ export const BASE_PATH = "/projects/balldiff/app";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 /** Product name. Single source of truth for the wordmark, page titles, and the OG card. */
-export const NAME = "BallDiff";
+export const NAME = "balldiff";
 
 /** Shared by the page metadata, the web manifest, and the OG card subhead. */
 export const DESCRIPTION =

@@ -3,7 +3,7 @@ import { DESCRIPTION } from "@/lib/site";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "BallDiff — bowling ball reaction specs, side by side";
+export const alt = "balldiff — bowling ball reaction specs, side by side";
 
 const BG = "#030712";
 const DIM = "#374151";
@@ -43,8 +43,8 @@ export default async function Image() {
           ))}
         </div>
         <div style={{ display: "flex", fontSize: 108, fontWeight: 700, marginTop: 56 }}>
-          <span style={{ color: "#F3F4F6" }}>Ball</span>
-          <span style={{ color: RED }}>Diff</span>
+          <span style={{ color: "#F3F4F6" }}>ball</span>
+          <span style={{ color: RED }}>diff</span>
         </div>
         <div style={{ display: "flex", fontSize: 36, color: "#9CA3AF", marginTop: 20, maxWidth: 900 }}>
           {DESCRIPTION}

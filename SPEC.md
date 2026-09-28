@@ -1,4 +1,4 @@
-# BallDiff — Product Spec
+# balldiff — Product Spec
 
 ## Problem
 
