@@ -3,9 +3,13 @@ export const BASE_PATH = "/projects/balldiff/app";
 
 /**
  * Absolute origin, used to build absolute OG/Twitter image URLs.
- * Set NEXT_PUBLIC_SITE_URL in the deploy environment; the fallback is dev-only.
+ *
+ * Defaults to the canonical public origin rather than localhost: these URLs are
+ * only ever fetched by link-preview crawlers running on someone else's servers,
+ * so a localhost default silently yields an unreachable og:image in production.
+ * Override with NEXT_PUBLIC_SITE_URL for preview deploys.
  */
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.antondeleon.com";
 
 /** Product name. Single source of truth for the wordmark, page titles, and the OG card. */
 export const NAME = "balldiff";
