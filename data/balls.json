@@ -2634,5 +2634,54 @@
       }
     ],
     "zvlCategory": "Medium/Sharp"
+  },
+  {
+    "id": "storm-ion-pro-pearl-bowling-ball",
+    "name": "Ion Pro Pearl Bowling Ball",
+    "shortName": "Ion Pro Pearl",
+    "brand": null,
+    "url": "https://www.stormbowling.com/storm-ion-pro-pearl-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVPO/BBMVPO@1.png?v=3eb01645",
+    "color": "Amethyst Pearl",
+    "fragrance": "Fruit Trifle",
+    "coreType": "Asymmetric",
+    "coreName": "Element Tour AI",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Element_Tour_AI/S_Element_Tour_AI_00000.png",
+    "coverstockType": "Pearl",
+    "coverstockName": "NRG Pearl",
+    "releaseDate": "2026-11-06",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 7,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 2,
+        "segmentEnd": 7
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 4,
+        "segmentEnd": 10
+      }
+    ]
   }
 ]
