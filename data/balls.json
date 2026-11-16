@@ -2684,5 +2684,103 @@
       }
     ],
     "zvlCategory": "Medium/Sharp"
+  },
+  {
+    "id": "storm-pitch-black-78-bowling-ball",
+    "name": "Storm Pitch Black 78 Bowling Ball",
+    "shortName": "Pitch Black 78",
+    "brand": "Storm",
+    "url": "https://www.stormbowling.com/storm-pitch-black-78-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMVTL/BBMVTL.png?v=0d686c47",
+    "color": "Pitch Black",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Capacitor",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/S_Capacitor/S_Capacitor_00000.png",
+    "coverstockType": "Urethane",
+    "coverstockName": "SS Urethane",
+    "releaseDate": "2026-12-18",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 4,
+        "segmentEnd": 4
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 1,
+        "segmentEnd": 2
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 5,
+        "segmentEnd": 10
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 1,
+        "segmentEnd": 5
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 2,
+        "segmentEnd": 4
+      }
+    ]
+  },
+  {
+    "id": "roto-grip-unit-bowling-ball",
+    "name": "Roto Grip Unit Bowling Ball",
+    "shortName": "Unit",
+    "brand": "Roto Grip",
+    "url": "https://www.stormbowling.com/roto-grip-unit-bowling-ball",
+    "imageUrl": "https://assets.1.commercebuild.com/d186dcd2044cf54d8e48876defef4907/contents/BBMRNI/BBMRNI.png?v=499a5b4f",
+    "color": "Cerulean/Black",
+    "fragrance": null,
+    "coreType": "Symmetric",
+    "coreName": "Actuator",
+    "coreImageUrl": "https://stormproducts.nyc3.cdn.digitaloceanspaces.com/product_pages/Balls/Coresequencing/R_Actuator/R_Actuator_00000.png",
+    "coverstockType": "Solid",
+    "coverstockName": "UR1 Solid",
+    "releaseDate": "2026-12-04",
+    "archived": false,
+    "metrics": [
+      {
+        "name": "Flare Potential",
+        "segmentStart": 9,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Ball Shape",
+        "segmentStart": 7,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Hook Length",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Oil Volume",
+        "segmentStart": 6,
+        "segmentEnd": 9
+      },
+      {
+        "name": "Pattern Length",
+        "segmentStart": 4,
+        "segmentEnd": 8
+      },
+      {
+        "name": "Lane Condition",
+        "segmentStart": 3,
+        "segmentEnd": 6
+      }
+    ]
   }
 ]
