@@ -34,13 +34,13 @@ export default function ReactionGraph({
   const colorCount = getBallColors(ball.color).length;
   const [coreImgError, setCoreImgError] = useState(false);
   return (
-    <div className="relative bg-gray-900 rounded-xl p-5 border border-gray-800 w-full min-w-0">
+    <div className="relative bg-gray-900 rounded-xl p-4 sm:p-5 border border-gray-800 w-full min-w-0">
       {onRemove && (
         <button
           onClick={onRemove}
           onPointerDown={(e) => e.stopPropagation()}
           title="Remove"
-          className="absolute top-2 right-2 text-gray-500 hover:text-white leading-none text-lg"
+          className="absolute top-0.5 right-0.5 p-1.5 text-gray-500 hover:text-white leading-none text-lg"
         >
           ×
         </button>
@@ -51,7 +51,7 @@ export default function ReactionGraph({
           <img
             src={ball.imageUrl}
             alt={ball.name}
-            className="w-36 h-36 object-contain mx-auto mb-3"
+            className="w-28 h-28 sm:w-36 sm:h-36 object-contain mx-auto mb-3"
           />
         )}
         <h2 className="text-lg font-bold mb-1 text-white flex items-center gap-2">
@@ -87,7 +87,7 @@ export default function ReactionGraph({
                       onClick={onCycleColor}
                       onPointerDown={(e) => e.stopPropagation()}
                       title="Cycle color"
-                      className="text-gray-500 hover:text-white leading-none"
+                      className="p-1 -m-1 text-gray-500 hover:text-white leading-none"
                     >
                       ↻
                     </button>

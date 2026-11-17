@@ -3,7 +3,8 @@
 import {
   DndContext,
   closestCenter,
-  PointerSensor,
+  MouseSensor,
+  TouchSensor,
   useSensor,
   useSensors,
   DragEndEvent,
@@ -45,6 +46,7 @@ function SortableCard({
     transition,
     opacity: isDragging ? 0.4 : 1,
     cursor: isDragging ? "grabbing" : "grab",
+    touchAction: "manipulation",
   };
 
   const colorCount = getBallColors(ball.color).length;
@@ -57,7 +59,7 @@ function SortableCard({
           onClick={onRemove}
           onPointerDown={(e) => e.stopPropagation()}
           title="Remove"
-          className="absolute top-1.5 right-2 text-gray-500 hover:text-white leading-none text-lg z-10"
+          className="absolute top-0 right-0.5 p-1.5 text-gray-500 hover:text-white leading-none text-lg z-10"
         >
           ×
         </button>
@@ -107,7 +109,7 @@ function SortableCard({
                       onClick={onCycleColor}
                       onPointerDown={(e) => e.stopPropagation()}
                       title="Cycle color"
-                      className="text-gray-500 hover:text-white leading-none"
+                      className="p-1 -m-1 text-gray-500 hover:text-white leading-none"
                     >
                       ↻
                     </button>
@@ -161,7 +163,11 @@ export default function StackedMetricLayout({
   onAdd?: (ball: Ball) => void;
   showZVL?: boolean;
 }) {
-  const sensors = useSensors(useSensor(PointerSensor));
+  // Long-press to drag on touch so normal swipes still scroll the page.
+  const sensors = useSensors(
+    useSensor(MouseSensor),
+    useSensor(TouchSensor, { activationConstraint: { delay: 200, tolerance: 6 } })
+  );
 
   // Collect unique metric names in first-seen order across all balls
   const metricNames: string[] = [];
@@ -187,16 +193,17 @@ export default function StackedMetricLayout({
   const selectedIds = balls.map((b) => b.id);
 
   return (
-    <div className="flex gap-6 min-w-0">
+    <div className="flex flex-col md:flex-row gap-6 min-w-0">
       {/* Left panel: draggable cards */}
       <DndContext
+        id="stacked-cards"
         sensors={sensors}
         collisionDetection={closestCenter}
         onDragEnd={handleDragEnd}
         modifiers={[restrictToVerticalAxis]}
       >
         <SortableContext items={balls.map((b) => b.id)} strategy={verticalListSortingStrategy}>
-          <div className="w-56 shrink-0 space-y-3">
+          <div className="w-full md:w-56 md:shrink-0 space-y-3">
             {balls.map((ball) => (
               <SortableCard
                 key={ball.id}
@@ -222,7 +229,7 @@ export default function StackedMetricLayout({
       </DndContext>
 
       {/* Center panel: one section per metric */}
-      <div className="flex-1 min-w-0 max-w-md space-y-6">
+      <div className="w-full md:flex-1 min-w-0 md:max-w-md space-y-6">
         {metricNames.map((metricName) => {
           const labels = METRIC_LABELS[metricName];
           const [left, mid, right] = labels
@@ -234,7 +241,7 @@ export default function StackedMetricLayout({
           return (
             <div key={metricName}>
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-28 shrink-0" />
+                <div className="w-20 sm:w-28 shrink-0" />
                 <div className="flex items-center gap-3 flex-1">
                   <div className="flex-1 h-px bg-gray-700" />
                   <span className="text-xl font-semibold text-white shrink-0">{metricName}</span>
@@ -247,7 +254,7 @@ export default function StackedMetricLayout({
                   const highlightColor = highlightColors[ball.id];
                   return (
                     <div key={ball.id} className="flex items-center gap-2">
-                      <div className="w-28 shrink-0 flex items-center justify-end gap-1.5">
+                      <div className="w-20 sm:w-28 shrink-0 flex items-center justify-end gap-1.5">
                         <span className="text-xs text-gray-400 truncate">{ball.shortName ?? ball.name}</span>
                         <div className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: highlightColor }} />
                       </div>
@@ -272,7 +279,7 @@ export default function StackedMetricLayout({
               </div>
               {labels && (
                 <div className="flex items-start gap-2 mt-0.5">
-                  <div className="w-28 shrink-0" />
+                  <div className="w-20 sm:w-28 shrink-0" />
                   <div className="flex justify-between flex-1 text-xs text-gray-400">
                     <span>{left}</span>
                     {mid && <span>{mid}</span>}

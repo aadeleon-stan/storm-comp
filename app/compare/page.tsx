@@ -25,11 +25,11 @@ function ComparePageInner() {
 
   return (
     <div>
-      <div className="flex items-center gap-4 mb-8">
+      <div className="flex items-center gap-4 mb-6 sm:mb-8">
         <Link href="/" className="text-sm text-gray-400 hover:text-white">
           ← Back
         </Link>
-        <h1 className="text-2xl font-bold">Comparing {balls.length} balls</h1>
+        <h1 className="text-xl sm:text-2xl font-bold">Comparing {balls.length} balls</h1>
       </div>
 
       <CompareLayout balls={balls} allBalls={allBalls} />

@@ -26,6 +26,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#030712",
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
@@ -36,15 +37,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray-950 text-gray-100 min-h-screen flex flex-col">
-        <header className="border-b border-gray-800 px-6 py-4">
+        <header className="border-b border-gray-800 px-4 sm:px-6 py-4">
           <Link href="/" className="text-xl font-bold hover:opacity-80">
             <span className="text-gray-100">ball</span>
             <span className="text-red-500">diff</span>
           </Link>
           <p className="text-xs text-gray-400 mt-0.5">Bowling ball reaction specs, side by side</p>
         </header>
-        <main className="px-6 py-8 max-w-7xl mx-auto w-full flex-1">{children}</main>
-        <footer className="border-t border-gray-800 px-6 py-4 text-xs text-gray-500">
+        <main className="px-4 sm:px-6 py-6 sm:py-8 max-w-7xl mx-auto w-full flex-1">{children}</main>
+        <footer className="border-t border-gray-800 px-4 sm:px-6 py-4 text-xs text-gray-500">
           Specs sourced from stormbowling.com. Not affiliated with or endorsed by Storm Products, Inc.
         </footer>
       </body>

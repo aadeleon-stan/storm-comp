@@ -100,7 +100,7 @@ export default function EmptyBallSlot({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onPointerDown={(e) => e.stopPropagation()}
-            className="w-full bg-gray-800 border border-gray-700 rounded px-2 py-1 text-xs focus:outline-none focus:border-red-500"
+            className="w-full bg-gray-800 border border-gray-700 rounded px-2 py-1 text-base sm:text-xs focus:outline-none focus:border-red-500"
           />
           <CorePills small />
           {coverOptions.length > 2 && (
@@ -108,7 +108,7 @@ export default function EmptyBallSlot({
               value={coverFilter}
               onChange={(e) => setCoverFilter(e.target.value)}
               onPointerDown={(e) => e.stopPropagation()}
-              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5 text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
+              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-1 sm:py-0.5 text-base sm:text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
             >
               {coverOptions.map((opt) => (
                 <option key={opt} value={opt}>{opt === "all" ? "All covers" : opt}</option>
@@ -120,7 +120,7 @@ export default function EmptyBallSlot({
               value={zvlFilter}
               onChange={(e) => setZvlFilter(e.target.value)}
               onPointerDown={(e) => e.stopPropagation()}
-              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5 text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
+              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-1 sm:py-0.5 text-base sm:text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
             >
               {zvlOptions.map((opt) => (
                 <option key={opt} value={opt}>{opt === "all" ? "All ZVL" : opt}</option>
@@ -132,14 +132,14 @@ export default function EmptyBallSlot({
               value={brandFilter}
               onChange={(e) => setBrandFilter(e.target.value)}
               onPointerDown={(e) => e.stopPropagation()}
-              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5 text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
+              className="w-full bg-gray-800 border border-gray-700 rounded px-1.5 py-1 sm:py-0.5 text-base sm:text-[10px] text-gray-300 focus:outline-none focus:border-red-500"
             >
               {brandOptions.map((opt) => (
                 <option key={opt} value={opt}>{opt === "all" ? "All brands" : opt}</option>
               ))}
             </select>
           )}
-          <ul className="space-y-1 max-h-48 overflow-y-auto">
+          <ul className="space-y-1 max-h-64 sm:max-h-48 overflow-y-auto">
             {available.map((ball) => {
               const core = abbrevCore(ball.coreType);
               const cover = ball.coverstockType;
@@ -151,7 +151,7 @@ export default function EmptyBallSlot({
                   <button
                     onClick={() => { onAdd(ball); setQuery(""); setOpen(false); }}
                     onPointerDown={(e) => e.stopPropagation()}
-                    className="w-full text-left flex items-center gap-2 px-1.5 py-1 rounded hover:bg-gray-800 transition-colors"
+                    className="w-full text-left flex items-center gap-2 px-1.5 py-2 sm:py-1 rounded hover:bg-gray-800 transition-colors"
                   >
                     {ball.imageUrl ? (
                       // eslint-disable-next-line @next/next/no-img-element
@@ -198,7 +198,7 @@ export default function EmptyBallSlot({
         placeholder="Add a ball…"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-red-500 shrink-0"
+        className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-base sm:text-sm focus:outline-none focus:border-red-500 shrink-0"
       />
       <div className="flex flex-col gap-2 shrink-0">
         <CorePills />
@@ -206,7 +206,7 @@ export default function EmptyBallSlot({
           <select
             value={coverFilter}
             onChange={(e) => setCoverFilter(e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
+            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
           >
             {coverOptions.map((opt) => (
               <option key={opt} value={opt}>{opt === "all" ? "All covers" : opt}</option>
@@ -217,7 +217,7 @@ export default function EmptyBallSlot({
           <select
             value={zvlFilter}
             onChange={(e) => setZvlFilter(e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
+            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
           >
             {zvlOptions.map((opt) => (
               <option key={opt} value={opt}>{opt === "all" ? "All ZVL" : opt}</option>
@@ -228,7 +228,7 @@ export default function EmptyBallSlot({
           <select
             value={brandFilter}
             onChange={(e) => setBrandFilter(e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
+            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
           >
             {brandOptions.map((opt) => (
               <option key={opt} value={opt}>{opt === "all" ? "All brands" : opt}</option>

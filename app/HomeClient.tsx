@@ -25,6 +25,7 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
   const [brandFilter, setBrandFilter] = useState("all");
   const [hideArchived, setHideArchived] = useState(false);
   const [previewId, setPreviewId] = useState<string | null>(null);
+  const [showFilters, setShowFilters] = useState(false);
 
   const coverOptions = useMemo(
     () => ["all", ...Array.from(new Set(balls.map((b) => b.coverstockType).filter((t): t is string => !!t))).sort()],
@@ -88,149 +89,173 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
   }
 
   const previewBall = previewId ? balls.find((b) => b.id === previewId) ?? null : null;
+  const activeFilterCount = [
+    coreFilter !== "all",
+    coverFilter !== "all",
+    zvlFilter !== "all",
+    brandFilter !== "all",
+    hideArchived,
+  ].filter(Boolean).length;
 
   return (
-    <div className="flex gap-8 items-start">
-      {/* Sticky sidebar */}
-      <div className="sticky top-8 w-56 shrink-0 space-y-4">
+    <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-start">
+      {/* Sidebar (sticky on desktop, stacked above the list on mobile) */}
+      <div className="w-full lg:w-56 lg:shrink-0 lg:sticky lg:top-8 space-y-4">
         <div>
           <h1 className="text-2xl font-bold">Compare balls</h1>
           <p className="text-gray-400 text-sm mt-1">Select up to three</p>
         </div>
 
-        <input
-          type="text"
-          placeholder="Search…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-red-500"
-        />
+        <div className="flex gap-2">
+          <input
+            type="text"
+            placeholder="Search…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="w-full min-w-0 bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-base sm:text-sm focus:outline-none focus:border-red-500"
+          />
+          <button
+            onClick={() => setShowFilters((v) => !v)}
+            aria-expanded={showFilters}
+            className={`lg:hidden shrink-0 px-3 py-2 rounded-lg border text-sm transition-colors ${
+              showFilters ? "border-gray-500 bg-gray-700 text-white" : "border-gray-700 bg-gray-800 text-gray-300"
+            }`}
+          >
+            Filters{activeFilterCount > 0 && <span className="ml-1 text-red-400">({activeFilterCount})</span>}
+          </button>
+        </div>
 
-        {/* Filters */}
-        <div className="space-y-2">
-          <div className="flex rounded-lg overflow-hidden border border-gray-700 text-xs">
-            {(["all", "sym", "asym"] as const).map((v) => (
-              <button
-                key={v}
-                onClick={() => setCoreFilter(v)}
-                className={`flex-1 py-1.5 transition-colors ${
-                  coreFilter === v ? "bg-gray-600 text-white" : "bg-gray-800 text-gray-400 hover:text-white"
-                }`}
+        {/* Filters (collapsible on mobile, always open on desktop) */}
+        <div className={`${showFilters ? "block" : "hidden"} lg:block space-y-4`}>
+          <div className="space-y-2">
+            <div className="flex rounded-lg overflow-hidden border border-gray-700 text-xs">
+              {(["all", "sym", "asym"] as const).map((v) => (
+                <button
+                  key={v}
+                  onClick={() => setCoreFilter(v)}
+                  className={`flex-1 py-2 lg:py-1.5 transition-colors ${
+                    coreFilter === v ? "bg-gray-600 text-white" : "bg-gray-800 text-gray-400 hover:text-white"
+                  }`}
+                >
+                  {v === "all" ? "All" : v === "sym" ? "Sym" : "Asym"}
+                </button>
+              ))}
+            </div>
+
+            {coverOptions.length > 2 && (
+              <select
+                value={coverFilter}
+                onChange={(e) => setCoverFilter(e.target.value)}
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
               >
-                {v === "all" ? "All" : v === "sym" ? "Sym" : "Asym"}
-              </button>
-            ))}
+                {coverOptions.map((opt) => (
+                  <option key={opt} value={opt}>{opt === "all" ? "All covers" : opt}</option>
+                ))}
+              </select>
+            )}
+
+            {zvlOptions.length > 2 && (
+              <select
+                value={zvlFilter}
+                onChange={(e) => setZvlFilter(e.target.value)}
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
+              >
+                {zvlOptions.map((opt) => (
+                  <option key={opt} value={opt}>{opt === "all" ? "All ZVL" : opt}</option>
+                ))}
+              </select>
+            )}
+
+            {brandOptions.length > 2 && (
+              <select
+                value={brandFilter}
+                onChange={(e) => setBrandFilter(e.target.value)}
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-base sm:text-xs text-gray-300 focus:outline-none focus:border-red-500"
+              >
+                {brandOptions.map((opt) => (
+                  <option key={opt} value={opt}>{opt === "all" ? "All brands" : opt}</option>
+                ))}
+              </select>
+            )}
           </div>
 
-          {coverOptions.length > 2 && (
-            <select
-              value={coverFilter}
-              onChange={(e) => setCoverFilter(e.target.value)}
-              className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
-            >
-              {coverOptions.map((opt) => (
-                <option key={opt} value={opt}>{opt === "all" ? "All covers" : opt}</option>
-              ))}
-            </select>
-          )}
-
-          {zvlOptions.length > 2 && (
-            <select
-              value={zvlFilter}
-              onChange={(e) => setZvlFilter(e.target.value)}
-              className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
-            >
-              {zvlOptions.map((opt) => (
-                <option key={opt} value={opt}>{opt === "all" ? "All ZVL" : opt}</option>
-              ))}
-            </select>
-          )}
-
-          {brandOptions.length > 2 && (
-            <select
-              value={brandFilter}
-              onChange={(e) => setBrandFilter(e.target.value)}
-              className="w-full bg-gray-800 border border-gray-700 rounded-lg px-2 py-1.5 text-xs text-gray-300 focus:outline-none focus:border-red-500"
-            >
-              {brandOptions.map((opt) => (
-                <option key={opt} value={opt}>{opt === "all" ? "All brands" : opt}</option>
-              ))}
-            </select>
-          )}
+          <div className="flex flex-wrap gap-x-4 gap-y-2 lg:flex-col lg:gap-4">
+            <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+              <input
+                type="checkbox"
+                checked={showBrand}
+                onChange={(e) => setShowBrand(e.target.checked)}
+                className="accent-red-500"
+              />
+              Show brand
+            </label>
+            <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+              <input
+                type="checkbox"
+                checked={showZVL}
+                onChange={(e) => setShowZVL(e.target.checked)}
+                className="accent-red-500"
+              />
+              Show ZVL
+            </label>
+            <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+              <input
+                type="checkbox"
+                checked={hideArchived}
+                onChange={(e) => setHideArchived(e.target.checked)}
+                className="accent-red-500"
+              />
+              Hide discontinued
+            </label>
+          </div>
         </div>
 
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
-          <input
-            type="checkbox"
-            checked={showBrand}
-            onChange={(e) => setShowBrand(e.target.checked)}
-            className="accent-red-500"
-          />
-          Show brand
-        </label>
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
-          <input
-            type="checkbox"
-            checked={showZVL}
-            onChange={(e) => setShowZVL(e.target.checked)}
-            className="accent-red-500"
-          />
-          Show ZVL
-        </label>
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
-          <input
-            type="checkbox"
-            checked={hideArchived}
-            onChange={(e) => setHideArchived(e.target.checked)}
-            className="accent-red-500"
-          />
-          Hide discontinued
-        </label>
-
-        <div className="space-y-2">
-          <button
-            onClick={compare}
-            disabled={selected.size === 0}
-            className="w-full bg-red-600 hover:bg-red-500 disabled:bg-gray-700 disabled:text-gray-500 disabled:cursor-not-allowed text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm"
-          >
-            {selected.size === 0
-              ? "Compare"
-              : `Compare ${selected.size} ${selected.size === 1 ? "ball" : "balls"}`}
-          </button>
-          {selected.size > 0 && (
+        <div className="hidden lg:block space-y-4">
+          <div className="space-y-2">
             <button
-              onClick={() => { setSelected(new Set()); setPreviewId(null); }}
-              className="w-full text-sm text-gray-400 hover:text-white py-1"
+              onClick={compare}
+              disabled={selected.size === 0}
+              className="w-full bg-red-600 hover:bg-red-500 disabled:bg-gray-700 disabled:text-gray-500 disabled:cursor-not-allowed text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm"
             >
-              Clear selection
+              {selected.size === 0
+                ? "Compare"
+                : `Compare ${selected.size} ${selected.size === 1 ? "ball" : "balls"}`}
             </button>
+            {selected.size > 0 && (
+              <button
+                onClick={() => { setSelected(new Set()); setPreviewId(null); }}
+                className="w-full text-sm text-gray-400 hover:text-white py-1"
+              >
+                Clear selection
+              </button>
+            )}
+          </div>
+
+          {selected.size > 0 && (
+            <ul className="space-y-1">
+              {[...selected].map((id) => {
+                const ball = balls.find((b) => b.id === id);
+                return ball ? (
+                  <li key={id} className="text-xs text-gray-300 flex items-center gap-2">
+                    <span className="text-red-500">•</span>
+                    <span className="truncate">{displayName(ball)}</span>
+                    <button
+                      onClick={() => toggle(id)}
+                      className="text-gray-600 hover:text-white shrink-0"
+                      aria-label={`Remove ${ball.name}`}
+                    >
+                      ×
+                    </button>
+                  </li>
+                ) : null;
+              })}
+            </ul>
           )}
         </div>
-
-        {selected.size > 0 && (
-          <ul className="space-y-1">
-            {[...selected].map((id) => {
-              const ball = balls.find((b) => b.id === id);
-              return ball ? (
-                <li key={id} className="text-xs text-gray-300 flex items-center gap-2">
-                  <span className="text-red-500">•</span>
-                  <span className="truncate">{displayName(ball)}</span>
-                  <button
-                    onClick={() => toggle(id)}
-                    className="text-gray-600 hover:text-white shrink-0"
-                    aria-label={`Remove ${ball.name}`}
-                  >
-                    ×
-                  </button>
-                </li>
-              ) : null;
-            })}
-          </ul>
-        )}
       </div>
 
       {/* Ball list */}
-      <div className="flex-1 min-w-0">
+      <div className={`flex-1 min-w-0 ${selected.size > 0 ? "pb-28 lg:pb-0" : ""}`}>
         {balls.length === 0 ? (
           <div className="text-gray-500 text-sm py-8 text-center border border-dashed border-gray-700 rounded-lg">
             No balls in the database yet.
@@ -286,7 +311,7 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
                       {subtitle && <div className="text-xs text-gray-500">{subtitle}</div>}
                     </div>
                     {isSelected && (
-                      <span className="ml-auto text-xs text-red-400 shrink-0">✓ selected</span>
+                      <span className="ml-auto text-xs text-red-400 shrink-0">✓<span className="hidden sm:inline"> selected</span></span>
                     )}
                   </button>
                 </li>
@@ -296,10 +321,49 @@ export default function HomeClient({ balls }: { balls: Ball[] }) {
         )}
       </div>
 
-      {/* Preview panel */}
+      {/* Preview panel (desktop only) */}
       {previewBall && (
-        <div className="sticky top-8 w-72 shrink-0">
+        <div className="hidden lg:block sticky top-8 w-72 shrink-0">
           <ReactionGraph ball={previewBall} onRemove={() => toggle(previewBall.id)} />
+        </div>
+      )}
+
+      {/* Mobile selection bar */}
+      {selected.size > 0 && (
+        <div className="lg:hidden fixed inset-x-0 bottom-0 z-20 border-t border-gray-800 bg-gray-950/95 backdrop-blur pb-[env(safe-area-inset-bottom)]">
+          <div className="px-4 py-3 space-y-2">
+            <ul className="flex flex-wrap gap-1.5">
+              {[...selected].map((id) => {
+                const ball = balls.find((b) => b.id === id);
+                return ball ? (
+                  <li key={id} className="flex items-center gap-1 bg-gray-800 rounded-full pl-2.5 pr-1 py-0.5 text-xs text-gray-200 max-w-full">
+                    <span className="truncate">{displayName(ball)}</span>
+                    <button
+                      onClick={() => toggle(id)}
+                      className="w-6 h-6 flex items-center justify-center text-gray-400 hover:text-white shrink-0"
+                      aria-label={`Remove ${ball.name}`}
+                    >
+                      ×
+                    </button>
+                  </li>
+                ) : null;
+              })}
+            </ul>
+            <div className="flex gap-2">
+              <button
+                onClick={() => { setSelected(new Set()); setPreviewId(null); }}
+                className="px-4 py-2.5 rounded-lg text-sm text-gray-400 hover:text-white border border-gray-700"
+              >
+                Clear
+              </button>
+              <button
+                onClick={compare}
+                className="flex-1 bg-red-600 hover:bg-red-500 text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm"
+              >
+                {`Compare ${selected.size} ${selected.size === 1 ? "ball" : "balls"}`}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

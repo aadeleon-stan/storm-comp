@@ -5,15 +5,15 @@ import { useRouter } from "next/navigation";
 import {
   DndContext,
   closestCenter,
-  PointerSensor,
+  MouseSensor,
+  TouchSensor,
   useSensor,
   useSensors,
   DragEndEvent,
 } from "@dnd-kit/core";
-import { restrictToHorizontalAxis } from "@dnd-kit/modifiers";
 import {
   SortableContext,
-  horizontalListSortingStrategy,
+  rectSortingStrategy,
   useSortable,
   arrayMove,
 } from "@dnd-kit/sortable";
@@ -47,6 +47,7 @@ function SortableBall({
     transition,
     opacity: isDragging ? 0.4 : 1,
     cursor: isDragging ? "grabbing" : "grab",
+    touchAction: "manipulation",
   };
 
   return (
@@ -66,7 +67,11 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
   const [showZVL, setShowZVL] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const sensors = useSensors(useSensor(PointerSensor));
+  // Long-press to drag on touch so normal swipes still scroll the page.
+  const sensors = useSensors(
+    useSensor(MouseSensor),
+    useSensor(TouchSensor, { activationConstraint: { delay: 200, tolerance: 6 } })
+  );
 
   useEffect(() => {
     const initialIndices: Record<string, number> = {};
@@ -123,15 +128,28 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
     }
   }
 
+  // Equalize the feature-block height of cards that share a grid row, so metric bars line up.
   useEffect(() => {
-    const sections = Array.from(
-      containerRef.current?.querySelectorAll<HTMLElement>("[data-ball-features]") ?? []
-    );
-    if (sections.length < 2) return;
-    sections.forEach((s) => (s.style.minHeight = ""));
-    const maxH = Math.max(...sections.map((s) => s.offsetHeight));
-    sections.forEach((s) => (s.style.minHeight = `${maxH}px`));
-  }, [balls, view]);
+    function equalize() {
+      const sections = Array.from(
+        containerRef.current?.querySelectorAll<HTMLElement>("[data-ball-features]") ?? []
+      );
+      sections.forEach((s) => (s.style.minHeight = ""));
+      const rows = new Map<number, HTMLElement[]>();
+      for (const s of sections) {
+        const top = s.getBoundingClientRect().top;
+        rows.set(top, [...(rows.get(top) ?? []), s]);
+      }
+      for (const row of rows.values()) {
+        if (row.length < 2) continue;
+        const maxH = Math.max(...row.map((s) => s.offsetHeight));
+        row.forEach((s) => (s.style.minHeight = `${maxH}px`));
+      }
+    }
+    equalize();
+    window.addEventListener("resize", equalize);
+    return () => window.removeEventListener("resize", equalize);
+  }, [balls, view, showZVL]);
 
   // Always render 3 columns; show 1 empty slot unless at 3 balls.
   // At 1 ball, show 2 total slots (1 real + 1 empty).
@@ -148,7 +166,7 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
 
   return (
     <div>
-      <div className="mb-6 space-y-2">
+      <div className="mb-6 space-y-3 lg:space-y-2">
         <div className="flex gap-1">
           <button
             onClick={() => setView("stacked")}
@@ -167,35 +185,37 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
             Details
           </button>
         </div>
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
-          <input
-            type="checkbox"
-            checked={showColors}
-            onChange={(e) => setShowColors(e.target.checked)}
-            className="accent-red-500"
-          />
-          Show colors
-        </label>
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
-          <input
-            type="checkbox"
-            checked={showZVL}
-            onChange={(e) => setShowZVL(e.target.checked)}
-            className="accent-red-500"
-          />
-          Show ZVL
-        </label>
-        {view === "card" && (
+        <div className="flex flex-wrap gap-x-4 gap-y-2 lg:flex-col lg:gap-2">
           <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
             <input
               type="checkbox"
-              checked={showBrand}
-              onChange={(e) => setShowBrand(e.target.checked)}
+              checked={showColors}
+              onChange={(e) => setShowColors(e.target.checked)}
               className="accent-red-500"
             />
-            Show brand
+            Show colors
           </label>
-        )}
+          <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+            <input
+              type="checkbox"
+              checked={showZVL}
+              onChange={(e) => setShowZVL(e.target.checked)}
+              className="accent-red-500"
+            />
+            Show ZVL
+          </label>
+          {view === "card" && (
+            <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer select-none w-fit">
+              <input
+                type="checkbox"
+                checked={showBrand}
+                onChange={(e) => setShowBrand(e.target.checked)}
+                className="accent-red-500"
+              />
+              Show brand
+            </label>
+          )}
+        </div>
       </div>
 
       {view === "stacked" ? (
@@ -210,9 +230,9 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
           showZVL={showZVL}
         />
       ) : (
-        <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd} modifiers={[restrictToHorizontalAxis]}>
-          <SortableContext items={balls.map((b) => b.id)} strategy={horizontalListSortingStrategy}>
-            <div ref={containerRef} className="grid gap-4 grid-cols-3">
+        <DndContext id="detail-cards" sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+          <SortableContext items={balls.map((b) => b.id)} strategy={rectSortingStrategy}>
+            <div ref={containerRef} className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {balls.map((ball) => (
                 <SortableBall
                   key={ball.id}
@@ -225,7 +245,7 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
                 />
               ))}
               {Array.from({ length: emptySlots }, (_, i) => (
-                <div key={`empty-${i}`} className="relative">
+                <div key={`empty-${i}`} className="relative min-h-[22rem]">
                   <div className="absolute inset-0 flex">
                     <EmptyBallSlot
                       allBalls={allBalls}
