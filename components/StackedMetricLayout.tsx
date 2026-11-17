@@ -3,10 +3,6 @@
 import {
   DndContext,
   closestCenter,
-  MouseSensor,
-  TouchSensor,
-  useSensor,
-  useSensors,
   DragEndEvent,
 } from "@dnd-kit/core";
 import { restrictToVerticalAxis } from "@dnd-kit/modifiers";
@@ -20,6 +16,7 @@ import { CSS } from "@dnd-kit/utilities";
 import type { Ball } from "@/lib/balls";
 import { isBallNew } from "@/lib/balls";
 import { getBallColors } from "@/lib/ballColor";
+import { useCardDragSensors } from "@/lib/dndSensors";
 import { METRIC_LABELS } from "@/components/ReactionGraph";
 import EmptyBallSlot from "@/components/EmptyBallSlot";
 
@@ -59,7 +56,7 @@ function SortableCard({
           onClick={onRemove}
           onPointerDown={(e) => e.stopPropagation()}
           title="Remove"
-          className="absolute top-0 right-0.5 p-1.5 text-gray-500 hover:text-white leading-none text-lg z-10"
+          className="absolute top-0 right-0 w-9 h-9 sm:w-7 sm:h-7 flex items-center justify-center rounded-bl-lg text-gray-500 hover:text-white active:bg-gray-800 leading-none text-xl sm:text-lg z-10"
         >
           ×
         </button>
@@ -67,7 +64,7 @@ function SortableCard({
       {/* Color swatch strip */}
       <div style={{ backgroundColor: highlightColor, height: 3 }} />
       <div className="p-3">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-2 pr-6">
           {ball.imageUrl && (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -163,11 +160,7 @@ export default function StackedMetricLayout({
   onAdd?: (ball: Ball) => void;
   showZVL?: boolean;
 }) {
-  // Long-press to drag on touch so normal swipes still scroll the page.
-  const sensors = useSensors(
-    useSensor(MouseSensor),
-    useSensor(TouchSensor, { activationConstraint: { delay: 200, tolerance: 6 } })
-  );
+  const sensors = useCardDragSensors();
 
   // Collect unique metric names in first-seen order across all balls
   const metricNames: string[] = [];

@@ -40,7 +40,7 @@ export default function ReactionGraph({
           onClick={onRemove}
           onPointerDown={(e) => e.stopPropagation()}
           title="Remove"
-          className="absolute top-0.5 right-0.5 p-1.5 text-gray-500 hover:text-white leading-none text-lg"
+          className="absolute top-0 right-0 w-10 h-10 sm:w-8 sm:h-8 flex items-center justify-center rounded-bl-lg rounded-tr-xl text-gray-500 hover:text-white active:bg-gray-800 leading-none text-xl sm:text-lg"
         >
           ×
         </button>

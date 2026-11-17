@@ -5,10 +5,6 @@ import { useRouter } from "next/navigation";
 import {
   DndContext,
   closestCenter,
-  MouseSensor,
-  TouchSensor,
-  useSensor,
-  useSensors,
   DragEndEvent,
 } from "@dnd-kit/core";
 import {
@@ -23,6 +19,7 @@ import StackedMetricLayout from "@/components/StackedMetricLayout";
 import EmptyBallSlot from "@/components/EmptyBallSlot";
 import type { Ball } from "@/lib/balls";
 import { getBallColors, colorsSimilar } from "@/lib/ballColor";
+import { useCardDragSensors } from "@/lib/dndSensors";
 
 function SortableBall({
   ball,
@@ -67,11 +64,7 @@ export default function CompareLayout({ balls: initialBalls, allBalls }: { balls
   const [showZVL, setShowZVL] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Long-press to drag on touch so normal swipes still scroll the page.
-  const sensors = useSensors(
-    useSensor(MouseSensor),
-    useSensor(TouchSensor, { activationConstraint: { delay: 200, tolerance: 6 } })
-  );
+  const sensors = useCardDragSensors();
 
   useEffect(() => {
     const initialIndices: Record<string, number> = {};
