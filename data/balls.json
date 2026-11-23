@@ -2732,7 +2732,8 @@
         "segmentStart": 2,
         "segmentEnd": 4
       }
-    ]
+    ],
+    "zvlCategory": "Urethane/Urethane-Like"
   },
   {
     "id": "roto-grip-unit-bowling-ball",
@@ -2781,6 +2782,7 @@
         "segmentStart": 3,
         "segmentEnd": 6
       }
-    ]
+    ],
+    "zvlCategory": "Medium/Smooth"
   }
 ]
